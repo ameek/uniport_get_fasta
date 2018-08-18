@@ -27,7 +27,7 @@ to collect all common lines, which should provide an easy solution to your probl
 
 ## replace:
 https://www.cyberciti.biz/faq/howto-delete-word-using-sed-under-unix-linux-bsd-appleosx/
-	$sed -e 's/\<regex-for-word\>//g' input > output
-	$sed -e 's/\<[a-zA-Z0-9]*[g|G]\>//g' input
-	$sed 's/[[]]//g' /path/to/file
-	$sed 's/\[//g;s/\]//g' /path/to/file
+* $sed -e 's/\<regex-for-word\>//g' input > output
+* $sed -e 's/\<[a-zA-Z0-9]*[g|G]\>//g' input
+* $sed 's/[[]]//g' /path/to/file
+* $sed 's/\[//g;s/\]//g' /path/to/file
